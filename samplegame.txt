@@ -1,0 +1,61 @@
+Peters-iMac:tictactoe pjw$ python game.py 
+Player 1 is Pete
+Player 2 is Kaya
+Pete's turn. Pick a square (1 - 9)5
+   |   |   
+------------
+   | X |   
+------------
+   |   |   
+Kaya's turn. Pick a square (1 - 9)2
+   | O |   
+------------
+   | X |   
+------------
+   |   |   
+Pete's turn. Pick a square (1 - 9)3
+   | O | X 
+------------
+   | X |   
+------------
+   |   |   
+Kaya's turn. Pick a square (1 - 9)7
+   | O | X 
+------------
+   | X |   
+------------
+ O |   |   
+Pete's turn. Pick a square (1 - 9)9
+   | O | X 
+------------
+   | X |   
+------------
+ O |   | X 
+Kaya's turn. Pick a square (1 - 9)1
+ O | O | X 
+------------
+   | X |   
+------------
+ O |   | X 
+Pete's turn. Pick a square (1 - 9)8
+ O | O | X 
+------------
+   | X |   
+------------
+ O | X | X 
+Kaya's turn. Pick a square (1 - 9)4
+ O | O | X 
+------------
+ O | X |   
+------------
+ O | X | X 
+Pete's turn. Pick a square (1 - 9)^CTraceback (most recent call last):
+  File "game.py", line 34, in <module>
+    b.pick()
+  File "game.py", line 20, in pick
+    q = raw_input("%s's turn. Pick a square (1 - 9)" % player)
+KeyboardInterrupt
+
+###################
+    This should have stopped and say Kaya wins!
+###################
